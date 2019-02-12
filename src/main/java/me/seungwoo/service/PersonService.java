@@ -1,6 +1,8 @@
-package me.seungwoo;
+package me.seungwoo.service;
 
 import lombok.RequiredArgsConstructor;
+import me.seungwoo.domain.Person;
+import me.seungwoo.repository.PersonRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -17,7 +19,12 @@ public class PersonService {
 
     private final PersonRepository personRepository;
 
-    public List<Person> getPersonList() {
+
+    public List<Person> findAll() {
         return personRepository.findAll();
+    }
+
+    public Person findByFirstName(String firstName) {
+        return personRepository.findByFirstName(firstName);
     }
 }

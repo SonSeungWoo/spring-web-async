@@ -1,5 +1,6 @@
-package me.seungwoo;
+package me.seungwoo.repository;
 
+import me.seungwoo.domain.Person;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

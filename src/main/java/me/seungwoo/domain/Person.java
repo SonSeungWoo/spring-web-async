@@ -1,4 +1,4 @@
-package me.seungwoo;
+package me.seungwoo.domain;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
