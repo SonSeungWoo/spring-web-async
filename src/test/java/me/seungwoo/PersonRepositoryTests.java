@@ -1,3 +1,4 @@
+/*
 package me.seungwoo;
 
 import me.seungwoo.domain.Person;
@@ -11,12 +12,14 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+*/
 /**
  * Created by Leo.
  * User: ssw
  * Date: 2019-02-12
  * Time: 09:56
- */
+ *//*
+
 @RunWith(SpringRunner.class)
 @DataJpaTest
 public class PersonRepositoryTests {
@@ -52,3 +55,4 @@ public class PersonRepositoryTests {
 
     }
 }
+*/
