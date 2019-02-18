@@ -37,7 +37,7 @@ public class PersonController {
         return personList;
     }
 
-    @Async("threadPoolTaskExecutor")
+    //@Async("threadPoolTaskExecutor")
     @GetMapping("/async")
     public Future<String> asyncMethodWithReturnType() {
         try {
